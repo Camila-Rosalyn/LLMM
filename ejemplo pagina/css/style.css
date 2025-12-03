@@ -1,0 +1,64 @@
+  h1{
+            text-align: center;
+        }
+        #contenedorCentral{
+           
+            text-align: center;
+            border: 1px black solid ;
+            width: 50%;
+            height: 100px;
+            margin: auto;
+            
+        }
+        #pedroSanchez{
+            color: red;
+        }
+        * { font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(194, 193, 193);
+        }
+        #pabloCasado{
+            color: blue;
+        }
+        #albertRivera{
+            color: chocolate;
+        }
+        #pabloIglesias{
+            color: blueviolet;
+        }
+        #santiagoAbascal{
+            color: green;
+        }
+        #contenedorBloque{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 70%;
+            margin: auto;
+        }
+        #contenedorIzq{
+            
+            float: left;
+            width: 35%;
+        }
+        #contenedorDch{
+            
+            margin: auto;
+            float: right;
+            width: 35%;
+        }
+        #bloques{
+            background-color: palevioletred;
+        }
+        main{
+             
+            clear: both;
+        }
+        hr{
+            width: 75%;
+            border: 1px rgba(0, 0, 0, 0.288) solid;
+        }
+        #contenedorFrases{
+            width: 60%;
+            text-align: left;
+            margin: auto;
+           
+            
+        }

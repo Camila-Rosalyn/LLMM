@@ -1,0 +1,41 @@
+
+
+.bloque-azul {
+    background-color: lightblue;
+    text-align: center;
+
+    border: 2px solid black;
+
+}
+
+.bloque-verde {
+    background-color: lightgreen;
+    width: 60%;
+   border: 2px solid black;
+   float: left;
+   
+}
+
+
+.subtitulo {
+    display: block;
+  
+    font-weight: bold;
+}
+
+.resaltado {
+    color: rgb(226, 111, 16);
+
+}
+
+.resaltado-rojo {
+    color: red;
+}
+
+.parrafo {
+    font-size: 14px;
+    width: 35%;
+    float: right;
+    background-color: lightgreen;
+    border: 2px solid black;
+}

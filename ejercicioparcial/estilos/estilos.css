@@ -1,0 +1,23 @@
+h1, h2, h3 {
+    color: #004d40;
+}
+
+p {
+    background-color: lightblue;
+}
+
+#tituloPrincipal {
+    color: #00695c;
+    border: 3px solid #26a69a;
+    text-align: center;
+}
+
+.listaDestacada {
+    background-color: #e0f2f1;
+    border: 1px solid #80cbc4;
+}
+
+a {
+    color: #00695c;
+    text-decoration: none;
+}

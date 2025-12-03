@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <!-- ============================= -->
+    <!-- CABECERA DE LA PÁGINA WEB -->
+    <!-- ============================= -->
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Rosalyn Camila Quispe Prado">
+    <meta name="description" content="Página web sobre los inicios de Java y su filosofía">
+    <meta name="keywords" content="Java, historia, programación, Hola Mundo, lenguaje de programación">
+    <meta name="creation-date" content="2025-11-12">
+
+    <title>Introducción a Java</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/226/226777.png" type="image/png">
+
+    <style>
+        /* ============================= */
+        /* ESTILOS GENERALES DE LA PÁGINA */
+        /* ============================= */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        #menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        #menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #menu a:hover {
+            background-color: #575757;
+        }
+
+        .contenedor {
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .seccion {
+            border-left: 4px solid #0077cc;
+            margin-bottom: 25px;
+            padding-left: 15px;
+        }
+
+        .seccion h2 {
+            color: #0077cc;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            float: left;
+        }
+
+        footer a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Limpieza de flotantes */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ============================= -->
+    <!-- CABECERA PRINCIPAL -->
+    <!-- ============================= -->
+    <header id="inicio">
+        <h1>Introducción al Lenguaje Java</h1>
+    </header>
+
+    <!-- ============================= -->
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <!-- ============================= -->
+    <nav id="menu">
+        <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Descargar Java</a>
+        <a href="#historia">Un poco de historia</a>
+        <a href="#primeros">Primeros pasos</a>
+    </nav>
+
+    <!-- ============================= -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ============================= -->
+    <div class="contenedor">
+
+        <!-- SECCIÓN HISTORIA -->
+        <div id="historia" class="seccion">
+            <h2>Un poco de historia para comenzar...</h2>
+            <p>
+                Java es un lenguaje que aparece en 1995. Para hacernos una idea, tiene más o menos el mismo tiempo de vida que otros lenguajes populares como Python o PHP, pero sin embargo Java es totalmente revolucionario. 
+                Podemos decir que el motivo de ser tan conocido e innovador es que tiene una filosofía única: 
+                <strong>"escribe una vez y ejecuta en cualquier lugar"</strong> ("write once, run everywhere"). 
+                En otras palabras, lo programas una vez y lo ejecutas en cualquier sistema. 
+                Esa filosofía es la que hizo a Java un mito, pero además Java tiene algunas características que lo hacen muy útil: 
+                es de los lenguajes más fuertes, con mayor cantidad de librerías para hacer cualquier tipo de cosa y con una de las mayores comunidades. 
+                Además, Java es un lenguaje de los mejor pagados en la actualidad.
+            </p>
+            <p>
+                Java fue desarrollado por Sun Microsystems, pero es a James Arthur Gosling al que se le considera el padre del lenguaje. 
+                Actualmente Java es propiedad de Oracle, que compró a Sun y es la responsable de su comercialización y la continuidad del desarrollo del lenguaje. 
+                Recientemente, Java ha tenido un nuevo florecimiento gracias a que Google usó el lenguaje como base para el desarrollo del sistema operativo Android y como lenguaje nativo para el desarrollo de aplicaciones para sus smartphones. 
+                No obstante, Java es usado en infinidad de entornos y de aplicaciones tradicionalmente.
+            </p>
+        </div>
+
+        <!-- SECCIÓN PRIMEROS PASOS -->
+        <div id="primeros" class="seccion">
+            <h2>Primeros pasos</h2>
+            <p>
+                La aplicación más pequeña posible es la que simplemente imprime un mensaje en la pantalla. Tradicionalmente, el mensaje suele ser "Hola Mundo!". 
+                Esto es justamente lo que hace el siguiente fragmento de código:
+            </p>
+
+<pre>
+<code>
+// Aplicación HolaMundo de ejemplo
+class HolaMundoApp {
+    public static void main(String args[]) {
+        System.out.println("Hola Mundo!");
+    }
+}
+</code>
+</pre>
+
+            <p>
+                Hay que ver en detalle la aplicación anterior, línea a línea. Esas líneas de código contienen los componentes mínimos para imprimir Hola Mundo! en la pantalla.
+                Es un ejemplo muy simple, que no instancia objetos de ninguna otra clase; sin embargo, accede a otra clase incluida en el JDK.
+            </p>
+
+            <p>
+                <strong>// Aplicación HolaMundo de ejemplo</strong>: Estas dos primeras líneas son comentarios.  
+                <strong>class HolaMundoApp {</strong>: Declara la clase HolaMundoApp, cuyo nombre se usa para crear un archivo HolaMundoApp.class al compilar.  
+                <strong>public static void main(String args[])</strong>: Es el método principal que el intérprete de Java ejecuta primero.  
+                <strong>System.out.println("Hola Mundo!")</strong>: Muestra el texto en pantalla usando el método <code>println()</code> de la clase <code>System.out</code>.
+            </p>
+
+            <!-- Imágenes relacionadas -->
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Logo de Java">
+            <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" alt="Imagen Java">
+            <div class="clear"></div>
+
+            <p>
+                Para saber más, visita este enlace:  
+                <a href="https://desarrolloweb.com/articulos/iniciacion-java-caracteristicas-programacion-ideeclipse.html" target="_blank">
+                    Iniciación a Java en DesarrolloWeb.com
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <!-- PIE DE PÁGINA -->
+    <!-- ============================= -->
+    <footer>
+        <a href="#inicio">Subir ⬆️</a> <br>
+        © 2025 Rosalyn Camila Quispe Prado
+    </footer>
+
+</body>
+</html>

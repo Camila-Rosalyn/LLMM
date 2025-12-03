@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.cuadro{
+    border: 3px solid blue;
+    width: 350px;
+    padding: 15px;
+    margin: auto;
+}
+.div1{
+    text-align: center;
+    margin: auto;
+}

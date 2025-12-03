@@ -1,0 +1,31 @@
+#tituloPrincipal{
+    color: indianred;
+    background-color: bisque;
+    text-align: center;
+}
+#divPrincipal{
+    overflow: hidden;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border: 2px rgb(160, 95, 140);
+    
+}
+#divSec1 {
+    background-color: #def7ff;
+    width: 30%;
+    float: left;
+}
+
+#divSec2 {
+    background-color: #e71be7e0;
+    width: 30%;
+    float: right;
+}
+
+#divSec3 {
+    clear: both;
+   width: 30%;
+    background-color: #d0e60b;
+    margin: auto;
+}

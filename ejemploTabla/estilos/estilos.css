@@ -1,0 +1,13 @@
+table{
+    border: 3px solid rgb(3, 20, 97);
+    width: 75%;
+    margin: auto;
+    border-style: double;
+}
+th{
+    border: 3px solid red;
+}
+td{
+        border: 3px solid red;
+
+}

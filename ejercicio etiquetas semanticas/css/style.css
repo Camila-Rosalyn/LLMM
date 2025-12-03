@@ -1,0 +1,13 @@
+header{
+    border: 2px solid red;
+    margin: 3px;
+}
+nav{
+    background-color: cornflowerblue;
+    width: 20%;
+    float: right;
+}
+.logo{
+    background-color: darkmagenta;
+    width: 10%;
+}
