@@ -1,0 +1,21 @@
+.cuadro1{
+    border: 3px dotted yellow;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+.cuadro2{
+    border: 3px dashed blue;
+    width: 25%;
+    padding: 15px;
+    margin: auto;
+    text-align: justify;
+    
+}
+span{
+    font-weight: bold;
+}
+.enviar{
+    align-content: center;
+}
