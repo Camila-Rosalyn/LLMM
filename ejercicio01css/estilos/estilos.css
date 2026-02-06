@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+background-color: lightpink;
+}
+header,section,footer{
+    border: 2px solid red;
+    margin: 3px;
+}
+h1,h2{
+    color: white;
+}
+.fondoNegro{
+    background-color : black;
+    width: 20%;
+    text-align: center;
+}
+section*span{
+    color: brown;
+}

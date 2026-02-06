@@ -1,0 +1,147 @@
+/* Reset general y tipografía */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 7. Optimización: Agrupación de selectores con propiedades comunes [cite: 28] */
+body, html {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* --- Encabezado --- */
+header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo-container {
+    width: 30%;
+    padding: 20px;
+}
+
+#logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* 5. Estilos de la zona de navegación (colores similares) [cite: 26] */
+.main-nav {
+    width: 70%;
+    background-color: #ffff00; /* Amarillo vibrante según imagen  */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.banner-rebajas h1 {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* 2. Enlaces sin decoración [cite: 10] */
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+/* --- Contenido Principal --- */
+main {
+    display: grid;
+    grid-template-columns: 30% 70%; /* Estructura lateral para el video vertical [cite: 23] */
+    padding: 20px;
+}
+
+/* 4. Configuración de vídeos (proporciones)  */
+video {
+    display: block;
+    object-fit: cover;
+}
+
+.video-sidebar video {
+    width: 100%;
+    height: auto;
+}
+
+/* --- Formulario --- */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+/* 7. Optimización de inputs [cite: 28] */
+input[type="text"],
+input[type="number"],
+select {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+input[type="color"] {
+    width: 65%;
+    height: 30px;
+    border: none;
+    background: none;
+}
+
+/* Botón de envío */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
+
+/* Vídeo horizontal inferior */
+.video-bottom {
+    width: 60%; /* Ajustado según la imagen de referencia [cite: 30] */
+}
+
+/* --- Pie de página --- */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-size: 0.8rem;
+    clear: both;
+}
