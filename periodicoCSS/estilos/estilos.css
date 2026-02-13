@@ -1,30 +1,34 @@
-*{
-    text-align: center;
-    background-image: url(../img/2605aa17bdc208cf37a30a94571c6454.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+/* Configuración del lienzo */
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
-header{
-height: 200px; ;
+
+/* Posicionamiento en la esquina inferior izquierda */
+.contenedor-imagen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
 }
-#nombrePeriodico{
-    position: static;
-    text-align: center;
+
+/* Estado inicial de la imagen */
+.mi-imagen {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
     display: block;
-    width: 50%;
-    height: 200px;
-    float: left;
+    /* Duración de 2 segundos para que se aprecien las 2 vueltas */
+    transition: transform 2s ease-in-out;
 }
-#logo{
-    position: static;
-    width: 15%;
-    height: 200px;
-    float: left;
-}
-#fecha{
-    position: static;
-    display: block;
-    width: 25%;
-    height: 200px;
-    float: left;
+
+/* Efectos al pasar el cursor (Hover) */
+.mi-imagen:hover {
+    /* translateX(600px): Desplazamiento
+       rotate(720deg): Dos vueltas (360 * 2)
+       scale(1.5): Tamaño x1.5
+    */
+    transform: translateX(600px) rotate(720deg) scale(1.5);
 }
