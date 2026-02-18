@@ -1,0 +1,29 @@
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    background-color: blanchedalmond;
+}
+img{
+    margin: auto;
+}
+#frase{
+width: 280px;
+text-align: left;
+background-color: aquamarine;
+float: left;
+border: ;
+}
+
+#logoNombreDanny{
+    width: 300px;
+    height:auto ;
+    float:right;
+    background-color: coral;
+
+}
+#Babylon{
+    width: 210px;
+    height: 150px;
+    float: right;
+}
