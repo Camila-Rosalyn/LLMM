@@ -1,0 +1,20 @@
+form{
+border: 3px;
+}
+.tabla01{
+border: 2px solid red;
+width:45%;
+}
+table{
+   margin: 10px;
+    border: 2px solid black;
+    width: 95%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    height: 10px;
+    align-content: center;
+}
+tr,td{
+    border:1px solid black;
+    text-align: center;
+}

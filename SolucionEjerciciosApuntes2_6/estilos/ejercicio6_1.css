@@ -1,0 +1,22 @@
+h1 {
+    width: 25%;
+    border: 1px solid black;
+}
+
+#divPrincipal {
+    width: 55%;
+    margin: auto;
+    border: 2px #003785 solid;
+}
+
+#divSec1 {
+    background-color: #def7ff;
+}
+
+#divSec2 {
+    background-color: #bceeff;
+}
+
+#divSec3 {
+    background-color: #8fe3ff;
+}

@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* TÍTULO */
+#titulo {
+    position: absolute;
+    top: 40px;
+    left: -100%;
+    color: blue;
+    font-size: 40px;
+    animation: mover 5s forwards;
+    cursor: pointer;
+}
+
+@keyframes mover {
+    from {
+        left: -100%;
+        color: white;
+    }
+    to {
+        left: 40px;
+    }
+}
+
+/* CONTENEDOR GENERAL */
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* CAJA IZQUIERDA (oscura) */
+.izquierda {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border-radius: 10px;
+}
+
+/* FORMULARIO (centro) */
+.derecha {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* TEXTO + VIDEO (derecha grande) */
+.info {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    color: blue;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    width: 50%;
+    text-align: right;
+    color: red;
+    font-size: 20px;
+    background-color: green;
+    opacity: 0;
+}

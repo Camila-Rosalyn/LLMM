@@ -1,0 +1,30 @@
+h1 {
+    width: 25%;
+    float: left;
+    border: 1px solid black;
+}
+
+#divPrincipal {
+    overflow: hidden;
+    width: 65%;
+    margin: auto;
+    border: 2px #003785 solid;
+}
+
+#divSec1 {
+    background-color: #def7ff;
+    width: 33%;
+    float: left;
+}
+
+#divSec2 {
+    background-color:#bceeff;
+    width: 33%;
+    float: left;
+}
+
+#divSec3 {
+    background-color: #8fe3ff;
+    width: 33%;
+    float: left;
+}

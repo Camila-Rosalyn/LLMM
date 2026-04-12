@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    padding: 2% 0;
+
+}
+img{
+    background-color: blueviolet;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav{
+    width: 40%;
+    margin: 1% auto;
+    border-color: blueviolet;
+    border:  1px solid blueviolet;
+}
